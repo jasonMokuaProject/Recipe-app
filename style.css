@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+.navigationBar {
+
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+    align-items: center;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.menuList {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    gap: 50px;
+}
+
+#SavedRecipebutton {
+    background-color: rgb(236, 96, 31);
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Front Banner */
+.frontBanner {
+    background-image: url('images/hero-banner-large.jpg');
+    background-repeat: no-repeat;
+    width: 90%;
+
+    margin: auto;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#searcharea {
+    margin: auto;
+    text-align: center;
+
+
+}
+
+#headerSearch {
+    padding-top: 110px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.3rem;
+
+}
+
+#searchBar {
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+    width: 29%;
+
+}
+
+#submitbutton {
+
+    width: 8%;
+    padding: 10px;
+    background: rgb(236, 96, 31);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.SearchContainer {
+    margin-top: 21px;
+}
