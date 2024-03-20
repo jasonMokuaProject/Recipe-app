@@ -1,0 +1,135 @@
+let foodMenuList = [
+    {
+        Name: 'Zucchini Slice',
+        Type: 'Lunch',
+        image: "food_images/zucchini-slice-10160-1.jpeg",
+        id: 'jfy73hclmsy7j3hd7yf',
+        prep:"15",
+        cook:"30",
+        servings:"15",
+        calories:"184",
+        allergens:"Recipe may contain gluten, wheat, egg, milk and lactose.",
+        description:"While the argument as to what is Australia’s national dish will always rage (is it roast lamb, green chicken curry or a barramundi burger)? One thing is for sure, zucchini slice is hands-down the national food of the home cook.",
+       
+    },
+    {
+        Name: 'Pumpkin Soup',
+        Type: 'Dinner',
+        image: "food_images/best-easy-pumpkin-soup-recipe-185570-1.jpg",
+        id: 'MGUKTNW6793KBSfhd',
+        prep:"10",
+        cook:"40",
+        servings:"6",
+        calories:"206",
+        allergens:"Recipe may contain milk, yeast and lactose.",
+        description:"The beauty of a creamy pumpkin soup (and this classic pumpkin soup recipe in particular) is that it’s so versatile and forgiving. It’s one of the easiest meals to make with just a handful of ingredients, and it’s almost impossible to mess up. We love easy soup recipes, and know our community of home cooks do too.",
+       
+    },
+    {
+        Name: 'Easy Fried Rice',
+        Type: 'Dinner',
+        image: "food_images/easy-fried-rice-187086-1.jpg",
+        id: '8IJ43Yyhb3hmsnw2',
+        prep:"10",
+        cook:"30",
+        servings:"4",
+        calories:"321",
+        allergens:"Recipe may contain egg, sesame and soybean.",
+        description:"Fried rice is a staple of Aussie takeaway. We love fried rice. And, while we might all have our favourite restaurant that makes Chinese fried rice just the way we like it, satisfying fried rice and egg fried rice is a dish that is easy to replicate at home. In this super simple version we use pantry and fridge staples, but the beauty of basic fried rice recipes is that you can always adjust the ingredients based on what you happen to have on hand at any given time.",
+       
+    },
+    {
+        Name: 'Classic Shepherds Pie',
+        Type: 'Dinner',
+        image: "food_images/classic-shepherds-pie_1980x1320-118395-1.jpg",
+        id: 'ioi034jfnvyd',
+        prep:"10",
+        cook:"65",
+        servings:"4",
+        calories:"713",
+        allergens:"Recipe may contain celery, milk, gluten, wheat and yeast.",
+        description:"Fried rice is a staple of Aussie takeaway. We love fried rice. And, while we might all have our favourite restaurant that makes Chinese fried rice just the way we like it, satisfying fried rice and egg fried rice is a dish that is easy to replicate at home. In this super simple version we use pantry and fridge staples, but the beauty of basic fried rice recipes is that you can always adjust the ingredients based on what you happen to have on hand at any given time.",
+     
+    },
+    {
+        Name: 'Chesse Quiche',
+        Type: 'Dinner',
+        image: "food_images/impossible-quiche-24036-1.jpeg",
+        id: 'ljdfhne394jfnvyd',
+        prep:"10",
+        cook:"40",
+        servings:"1",
+        calories:"351",
+        allergens:"Recipe may contain gluten, wheat, egg, milk and lactose.",
+        description:"What we love about this impossible quiche recipe is that it requires no puff pastry base or pie crust. You simply mix all the ingredients together, pour the egg mixture into the pie dish and et voila, during cooking a quiche with golden edges forms as if by magic. No pie crust required! Making quiche needn't be hard, when you have a classic quiche recipe on hand. While quiche lorraine might be a go-to for many (and we love a quiche lorraine too), an impossible quiche recipe is even easier and speedier to make at home.",
+     
+    },
+
+    {
+        Name: 'Lasagne',
+        Type: 'Dinner',
+        image: "food_images/our-favourite-lasagne-193150-2.jpg",
+        id: 'ytyjtynenmt7432yd',
+        prep:"20",
+        cook:"80",
+        servings:"8",
+        calories:"507",
+        allergens:"Recipe may contain gluten, milk, egg, wheat and lactose.",
+        description:"There are many good reasons this particular lasagne recipe has become so beloved. The addition of wine in the meat sauce makes it super flavourful, while the layering of pasta (or 'lasagna noodles' for those in the US!) with mozzarella makes for the perfect 'cheese pull moment' (watch our video to witness it in action). But if we were to pick one thing that makes this lasagne recipe stand out above all others, it’s the luscious bechamel. A good homemade bechamel base or 'cheese sauce' takes time, but it’s worth it for the extra depth of flavour it brings.",
+     
+    },
+
+    {
+        Name: 'Thai Beef Salad',
+        Type: 'Dinner',
+        image: "food_images/thai-beef-salad_1980x1320-118406-1.jpg",
+        id: 'pi8ghioptrewwssugf432yd',
+        prep:"15",
+        cook:"10",
+        servings:"4",
+        calories:"413",
+        allergens:"Recipe may contain sulphites, groundnut, sesame, fish and soybean.",
+        description:"Thai cuisine is one of contrasts and Thai beef salad is a perfect example. In the dressing alone, sweet meets salty, spicy and sour and in the salad intense chilli meets gentle aromatic herbs and cooling cucumber, all coming together in perfect harmony.",
+       
+    },
+
+    {
+        Name: 'Curried Sausages',
+        Type: 'Dinner',
+        prep:"15",
+        cook:"45",
+        servings:"4",
+        calories:"783",
+        allergens:"Recipe may contain mustard and yeast.",
+        description:"When craving curried sausages, this is the recipe I always use. The natural sweetness of carrots coupled with the fruity chutney (the secret to our delicious tasty mild curry sauce!) is a perfect match for the piquant curry powder and hearty sausages.",
+        image: "food_images/curried-sausages-72753-1.jpeg",
+        id: 'afd4565orthyd'
+    },
+
+    {
+        Name: 'Basic Chicken And Vegetable Stirfry',
+        Type: 'Lunch',
+        image: "food_images/basic-chicken-and-vegetable-stirfry_1980x1320-117899-1.jpg",
+        id: 'pkukiyr5432yd',
+        prep:"20",
+        cook:"10",
+        servings:"4",
+        calories:"230",
+        allergens:"Recipe may contain gluten, wheat, groundnut, mollusc and soybean.",
+        description:"The best part about stir-fries is that anyone can make them, regardless of cooking abilities. But this chicken stir-fry recipe is one we find ourselves coming back to again and again when we crave a healthy, easy meal during the mid-week dinner rush.",
+
+    },
+    {
+        Name: 'San Choy Bau',
+        Type: 'Lunch',
+        image: "food_images/san-choy-bau_1980x1320-118402-1.jpg",
+        id: 'pdsffgt5ew432yd',
+        prep:"15",
+        cook:"06",
+        servings:"4",
+        calories:"366",
+        allergens:"Recipe may contain gluten, wheat, tree nut, sulphites and groundnut.",
+        description:"San choy bau is a dish embraced by all ages. Sweet, sour and salty flavours meet tender, crispy and crunchy textures all wrapped up like a present! Our san choy bau recipe brings this Chinese restaurant classic into your own home.",
+
+    },
+];

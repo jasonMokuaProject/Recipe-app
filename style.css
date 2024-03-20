@@ -41,7 +41,7 @@
     background-image: url('images/hero-banner-large.jpg');
     background-repeat: no-repeat;
     width: 96%;
-border-radius: 3px;
+    border-radius: 3px;
     margin: auto;
     margin-top: 40px;
     height: 500px;
@@ -90,68 +90,68 @@ border-radius: 3px;
     margin-top: 21px;
 }
 
-#annotationText{
+#annotationText {
     margin-top: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 0.7rem;
-    color:rgb(76, 76, 76);
+    color: rgb(76, 76, 76);
 }
 
 
 /*  Second Banner*/
 
-.SecondBanner{
-   width: 80%;
+.SecondBanner {
+    width: 80%;
 
     margin: auto;
     margin-top: 40px;
-    
+
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 
 }
 
-.itemSB{
-width:20%;
-text-align: center;
-  transition:  border 2s ease;
+.itemSB {
+    width: 20%;
+    text-align: center;
+    transition: border 2s ease;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 1.5rem;
-    color:rgb(76, 76, 76);
+    color: rgb(76, 76, 76);
 }
 
-.itemSB:hover{
+.itemSB:hover {
     border-bottom: 1px solid rgb(236, 96, 31);
 }
 
 
 
 
-.recipeTextdesc{
+.recipeTextdesc {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 0.8rem;
     padding: 4px;
-    color:rgb(76, 76, 76);
+    color: rgb(76, 76, 76);
 }
 
 
-.imagecolumn{
-margin: auto;
-width: 80%;
-margin-top: 40px;
+.imagecolumn {
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
     display: grid;
-    grid-template-columns:repeat(auto-fit,200px);
-    gap:30px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 30px;
     justify-content: center;
 }
 
-.theimagecontainer{
+.theimagecontainer {
 
     width: 200px;
     height: 200px;
@@ -160,14 +160,86 @@ margin-top: 40px;
 
 /* Footer */
 
-#thefooter{
+#thefooter {
 
     background-color: white;
     color: black;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 15px;
-width: 100%;
+    width: 100%;
     align-items: center;
     border-top: 1px solid rgb(180, 180, 180);
 }
+
+.Specific-item {
+    margin-top: 300px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.IndividualImage {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.thetextforindividualimage {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9rem;
+    padding: 4px;
+    color: rgb(76, 76, 76);
+}
+
+.thetextforindividualimagesecond {
+margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2rem;
+    padding: 20px;
+   word-spacing: 19px;
+    color: rgb(76, 76, 76);
+}
+
+
+.thetextforindividualimagethird {
+    margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.7rem;
+        padding: 4px;
+       word-spacing: 5px;
+        color: rgb(76, 76, 76);
+    }
+
+    .thetextforindividualimagethird {
+    margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.7rem;
+        padding: 4px;
+       word-spacing: 5px;
+        color: rgb(76, 76, 76);
+    }
+
+    
+    .thetextforindividualimagefourth{
+width:700px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.2rem;
+            padding: 4px;
+           word-spacing: 5px;
+            color: rgb(76, 76, 76);
+        }
